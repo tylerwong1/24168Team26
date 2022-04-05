@@ -61,3 +61,7 @@ def sign_up():
             return redirect(url_for('views.home'))
 
     return render_template("sign_up.html", user=current_user)
+
+@auth.route('/question1', methods=['GET', 'POST'])
+def question1():
+    return render_template("question1.html", user=current_user)
