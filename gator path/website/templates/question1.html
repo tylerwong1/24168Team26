@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Assessment{% endblock %}
+{% block content %}
+<form method="POST">
+<html>
+<head>
+<style>
+
+.column {
+    float: left;
+}
+
+.one {
+    width: 30%;
+}
+
+.two {
+  width: 14%;
+}
+    
+.three {
+    width: 14%;
+}
+
+.four {
+    width: 14%;
+}
+
+.five {
+    width: 14%;
+}
+
+.six {
+    width: 14%;
+}
+
+.labels {
+  font-size: 12px;
+}
+
+</style>
+</head>
+  <body>
+    <h2>Interest Assessment</h2>
+    <p>In this set of questions you will respond based on your level of interest in the following topics.</p>
+
+    <section>
+      <div class="row">
+        <div class="column one">
+          <br>
+          <p>Cybersecurity<p>
+        </div>
+        <div class="column two">
+          <div class="labels">
+            <p>Not Interested<p>
+          </div>
+          <INPUT TYPE="Radio" Name="Rank" ID="R1" Value="1">
+          <br>
+          <br>
+          <INPUT TYPE="Radio" Name="Rank" ID="R1" Value="1">
+        </div>
+        <div class="column three">
+          <div class="labels">
+            <p>Less Interested<p>
+          </div>
+          <INPUT TYPE="Radio" Name="Rank" ID="R2" Value="2">
+        </div>
+        <div class="column four">
+          <div class="labels">
+            <p>Neutral<p>
+          </div>
+          <INPUT TYPE="Radio" Name="Rank" ID="R3" Value="3">
+        </div>
+        <div class="column five">
+          <div class="labels">
+            <p>Interested<p>
+          </div>
+          <INPUT TYPE="Radio" Name="Rank" ID="R4" Value="4">
+        </div>
+        <div class="column six">
+          <div class="labels">
+            <p>Very Interested<p>
+          </div>
+          <INPUT TYPE="Radio" Name="Rank" ID="R5" Value="5">
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
+</form>
+{% endblock %}

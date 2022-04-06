@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<form method="POST">
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                .center {
+                    margin-right: auto;
+                    display: flex;
+                    height: 200px;
+                    width: 500px;
+                    background-color: lightgray;
+                    top: 50%;
+                    left: 50%;
+                    position: absolute;
+                    margin-top: -100px;
+                    margin-left: -250px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .buttons {
+                    background-color: rgb(91,196,231);
+                    color: white;
+                    padding: 10px 24px;
+                    width: 200px;
+                    margin: 10px;
+                }
+                .buttons:hover {
+                    background-color: rgb(49,146,179);
+                }
+                .buttons:not(:last-child) {
+                    margin-right: 100px;
+                }
+            </style>
+        </head>
+        <body>
+
+            <div class="center">
+                <p><a href="/question1" class="buttons">Take Assessment</a></p>
+                <p><a href="/question1" class="buttons">View Past Results</a></p>
+            </div>
+            
+        </body>
+    </html>
+</form>
+
+{% endblock %} 
