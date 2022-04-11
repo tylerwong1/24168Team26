@@ -1,0 +1,12 @@
+vector of vectors
+
+vector name is broad topic
+vector name is a smaller topic and vector of classes within smaller topic
+
+class objects with match index
+up match index for every course topic a student is interested in
+
+
+dict of broad topics
+broad topic holds array of course objects
+course objects have arrray of little objects attached

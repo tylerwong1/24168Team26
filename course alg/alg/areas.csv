@@ -1,0 +1,43 @@
+﻿header
+Data,Data Storage,COP 4720
+Data,Databases,CAP 4770,COP 4720
+Data,File Management,CAP 4770
+Design,Animation,CAP 3032,CAP 3034
+Design,Computer Games,CAP 4053
+Design,Digital Arts,CAP3020,CAP 3027,CGS 2032
+Design,Graphics,CAP 3032,CAP 4613,CAP 4730
+Design,Image Processing,CAP 3032
+Design,Interfaces,CAP 3032,CEN 4721
+Design,Modeling,CAP 3032,CAP 3220,CAP 4730,CDA 4630
+Design,Multimedia Production,CAP3020,CAP 3027,CNT 4731
+Investigation,Case Studies,CGS 3063,CIS 4360,CIS 4362
+Investigation,Computer Forensic Analysis,CAP 4136
+Investigation,Reverse Engineering,CAP 4136
+Investigation,Teaching,CIS 4715
+Machine,Compilers,COP 4620
+Machine,Deep Learning,CAP 4613
+Machine,Natural Language Processing,CAP 4621,CAP 4641
+Machine,Translation of Languages,COP 4620
+Machine,Translator Writing Systems,COP 4620
+Problem Solving,Logic,CGS 2032
+Problem Solving,Mathematics,CGS 2032
+Security,Attacks and Threats,CIS 2354,CIS 4213,CIS 4360,CNT 4409
+Security,Cryptography,CIS 4362
+Security,Cybersecurity,CIS 2354,CIS 4204,CIS 4213,CNT 4409
+Security,Hacking,CIS 4204
+Security,Malware,CAP 4136
+Security,Risk Management,CIS 2354,CIS 4360
+Simulation,Artificial Intelligence,CAP 3032,CAP 4053,CAP 4613,CAP 4621
+Simulation,Virtual Reality,IDC 4710
+Software,Object-Oriented Programming,COP 4331
+Software,Software Testing,CEN 4072
+Systems,Computer Architecture,CDA 4102
+Systems,Networks,CNT 4409,CNT 4731
+Systems,Operating Systems,CDA 4630
+Systems,System Modeling,CAP 4641,CAP 4680
+Systems,System Organization,CDA 4102,CDA 4630,CNT 4409
+Users,Impact of Computers,CGS 3063,IDC 4710
+Users,Natural User Interaction,CEN 4725
+Users,Non-Keyboard and Mouse Interactions,CEN 4725
+Users,People and Computers,CEN 4721,CEN 4722,CEN 4725,CGS 3063,CIS 4360,IDC 4710
+Users,User Research,CEN 4722
