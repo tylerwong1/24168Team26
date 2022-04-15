@@ -2,3 +2,4 @@ pytest == 7.1.1
 flask == 2.0.2
 werkzeug == 2.0.2
 flask_sqlalchemy == 2.5.1
+flask_login == 0.6.0
