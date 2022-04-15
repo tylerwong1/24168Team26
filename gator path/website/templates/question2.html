@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Assessment{% endblock %}
+{% block content %}
+<form method="POST">
+<html>
+<head>
+<style>
+
+
+</style>
+</head>
+<body>
+    
+    <p>Select your interest</p>
+
+    <label for="1">{{ query.get("1") }}</label>
+    <select name="1" id="1">
+        <option value="y">interested</option>
+        <option value="n">not interested</option>
+    </select>
+    <br><br>
+
+    <label for="2">{{ query.get("2") }}</label>
+    <select name="2" id="2">
+        <option value="y">interested</option>
+        <option value="n">not interested</option>
+    </select>
+    <br><br>
+
+    <label for="3">{{ query.get("3") }}</label>
+    <select name="3" id="3">
+        <option value="y">interested</option>
+        <option value="n">not interested</option>
+    </select>
+    <br><br>
+
+    <label for="4">{{ query.get("4") }}</label>
+    <select name="4" id="4">
+        <option value="y">interested</option>
+        <option value="n">not interested</option>
+    </select>
+    <br><br>
+
+    <label for="5">{{ query.get("5") }}</label>
+    <select name="5" id="5">
+        <option value="y">interested</option>
+        <option value="n">not interested</option>
+    </select>
+    <br><br>
+
+    <input type="submit" name="submit2" value="Submit">
+    
+</body>
+</html>
+</form>
+{% endblock %}
