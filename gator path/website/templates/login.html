@@ -1,29 +1,38 @@
 {% extends "base.html" %}
 {% block title %}Login{% endblock %}
 {% block content %}
-<form method="POST">
-    <h3 align="center">Login</h3>
-    <div class="form-group">
-        <label for="email">Email Address</label>
-        <input
-            type="email"
-            class="form-control"
-            id="email"
-            name="email"
-            placeholder="Enter email"
-        />
+<div class="container-fluid ps-md-0">
+    <div class="row g-0">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+        <div class="col-md-8 col-lg-6">
+        <div class="login d-flex align-items-center py-5">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-lg-8 mx-auto">
+                <h3 class="login-heading mb-4">Welcome Back!</h3>
+                <form method="POST">
+                    <div class="form-group mb-3">
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Email Address" 
+                        />
+                    </div>
+                    <div class="form-group mb-3">
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password"
+                            name="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign In</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label for="password1">Password</label>
-        <input
-            type="password"
-            class="form-control"
-            id="password"
-            name="password"
-            placeholder="Enter password"
-        />
-    </div>
-    <br />
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
+</div>
 {% endblock %}
