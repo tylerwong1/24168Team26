@@ -12,7 +12,7 @@ topSubs = {}
 numbering = {}
 
 def reading():
-    file = open('website/areas.csv')
+    file = open('gator path/website/areas.csv')
 
     csvreader = csv.reader(file)
 
@@ -35,7 +35,7 @@ def reading():
                 c1 = Course(i[j])
                 allClasses[i[j]] = c1
 
-    file = open("website\courses.csv")
+    file = open('gator path/website/courses.csv')
 
     csvreader = csv.reader(file)
 
